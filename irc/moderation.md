@@ -4,31 +4,29 @@
 
 Choosing a channel name
 
-On the Freenode-Network normal channel should have a name like `##<channelname>` only registered primary groups should use `#<channelname>` in all following snippets `<channelname>` includes `#` or `##`!
+On the Freenode-Network normal channel should have a name like `##<channelname>` only registered primary groups should use `#<channelname>` in all following snippets `<channelname>` includes `#` or `##`!
 
-Creation
-
-`/join <channelname>` 
+`/join <channelname>` 
 
 Check if a channel is already registered
 
-`/msg Chanserv info <channelname>` 
+`/msg Chanserv info <channelname>` 
 
 Register a channel
 
-`/msg Chanserv register <channelname>` 
+`/msg Chanserv register <channelname>` 
 
 ## Op and DeOp
 
 Gain/give OP status
 
-`/msg Chanserv op <channelname> <nickname>`
+`/msg Chanserv op <channelname> <nickname>`
 
 Drop/remove Op status
 
-`/msg Chanserv deop <channelname> <nickname>` 
+`/msg Chanserv deop <channelname> <nickname>` 
 
---- 
+---
 
 **For all of the following commands you need to have the op status!**
 
@@ -36,10 +34,60 @@ Drop/remove Op status
 
 Setting a topic
 
-`/topic <channelname> <new topic>` 
+`/topic <channelname> <new topic>` 
 
 ## Kicks and Bans
+
+##### Masks
+
+`<nickname>!<username>@<hostname>.<domainname>`
+
+| `nickname`   | The users nickname as normaly shown in the userlist                            |
+| ------------ | ------------------------------------------------------------------------------ |
+| `username`   | User name chosen by the client. Typically the username on the clients computer |
+| `hostname`   | The users host, used to connect to the irc server                              |
+| `domainname` | Domain for the users hostname                                                  |
+
+The `hostname` and `domainname` sometimes is substituted by a *cloak*. This is done to hide the users origin. **This is no real security feature! It does not provide any anonymity!**. On the freenodeservers this typically looks like `unaffiliated/<nickname>`.
+
+Within these masks it is possible to use wildcards `*` as well as a limited set of regex. Here some examples (✓is included in the mask; 𐄂 is not included):
+
+**`*!*@<hostname><domainname>` ➞ any nick and any user comming from `<hostname><domainname`**
+
+ `*!*@unaffiliated/test`:
+
+- `test!linux@unaffiliated/test` ✓
+
+- `test!linux@test/unaffiliated` 𐄂
+
+- `nottest!wintest@unaffiliated/test` ✓
+
+**`<nickname>!*@*` ➞ `<nickname>` which uses any username from any origin (hostname/domainname)**
+
+`spammer!*@*`:
+
+- `spammer!random@asian-vpn-18.com` ✓
+
+- `anotherspammer!random@asian-vpn-18.com` 𐄂
+
+- `spammer!kiwi@kiwiirc/98.11.20.12` ✓
+
+It is also possible to use the wildcards only for a part of the usermasks segments. E.g.:
+
+**`<partial-nick>*!*@*` ➞ any `<nickname>` starting with `<partial-nick>` with any `<username>` from any `<hostname><domainname>`** 
+
+`spam*!*@*`:
+
+- `spamalot!kiwi@kiwiirc/21.123.234.12` ✓
+
+- `alotspam!kiwi@kiwiirc/21.123.234.12` 𐄂
+
+- `spam!nop@unaffilitated/spamalot` ✓
 
 ## Channelmodes
 
 ## Managing Ops
+
+
+
+
