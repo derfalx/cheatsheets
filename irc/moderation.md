@@ -42,8 +42,9 @@ Setting a topic
 
 `<nickname>!<username>@<hostname>.<domainname>`
 
-| `nickname`   | The users nickname as normaly shown in the userlist                            |
+| Segment      | Description                                                                    |
 | ------------ | ------------------------------------------------------------------------------ |
+| `nickname`   | The users nickname as normaly shown in the userlist                            |
 | `username`   | User name chosen by the client. Typically the username on the clients computer |
 | `hostname`   | The users host, used to connect to the irc server                              |
 | `domainname` | Domain for the users hostname                                                  |
