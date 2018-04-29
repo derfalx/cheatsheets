@@ -48,7 +48,7 @@ Setting a topic
 | `hostname`   | The users host, used to connect to the irc server                              |
 | `domainname` | Domain for the users hostname                                                  |
 
-The `hostname` and `domainname` sometimes is substituted by a *cloak*. This is done to hide the users origin. **This is no real security feature! It does not provide any anonymity!**. On the freenodeservers this typically looks like `unaffiliated/<nickname>`.
+The `hostname` and `domainname` sometimes is substituted by a *cloak*. This is done to hide the users origin. **This is no real security feature! It does not provide any anonymity!** On the freenode servers this typically looks like `unaffiliated/<nickname>`.
 
 Within these masks it is possible to use wildcards `*` as well as a limited set of regex. Here some examples (✓is included in the mask; 𐄂 is not included):
 
