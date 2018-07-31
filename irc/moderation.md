@@ -1,5 +1,23 @@
 # Cheatsheet for IRC OPs
 
+### General Notes
+
+Commands are displayed using the following syntax: `/some_command`
+
+User specified parameters are within diamond brackets: `<user_defined_parameter>`
+
+Optional parameters are within square brackets: `[<optional_user_defined_parameter>]` 
+
+If the user has to choose between multiple possibilities it is indicated using round brackets and a pipe symbol to separate several possible values: `(<possibility_one>|<or_possibility_two>)`
+
+## Channel and Usermodes
+
+Many things on IRC networks are handled using so called modes. These can be either applied to users or channels using the following syntax:
+
+`/mode (<nickname>|<channelname> (+|-)<mode> [<additional_parameters>]`
+
+whereby `+` activates, and `-` deactivates the given mode.
+
 ## Channel Creation and Registration
 
 Choosing a channel name
