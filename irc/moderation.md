@@ -32,6 +32,10 @@ Drop/remove Op status
 
 ## Topics
 
+Reading the topic
+
+`/topic <channelname>`
+
 Setting a topic
 
 `/topic <channelname> <new topic>` 
@@ -71,6 +75,10 @@ Within these masks it is possible to use wildcards `*` as well as a limited set
 
 - `spammer!kiwi@kiwiirc/98.11.20.12` ✓
 
+In case of nick-only masks the rest of the mask can be omitted, so it's also valid to simply use:
+- `spammer`
+- `someOnetoKickOrBan` 
+
 It is also possible to use the wildcards only for a part of the usermasks segments. E.g.:
 
 **`<partial-nick>*!*@*` ➞ any `<nickname>` starting with `<partial-nick>` with any `<ident>` from any `<hostname><domainname>`** 
@@ -86,13 +94,28 @@ It is also possible to use the wildcards only for a part of the usermasks segmen
 ## Kicks and Bans
 Kick an user. Giving a `<reason>` is optional
 
-`/kick <channelname> <nickname> <reason>`
+`/kick <channelname> <nickname> [<reason>]`
 
 Basic ban
 
 `/mode <channelname> +b <nickname>!<ident>@<hostname><domainname>`
 
+Basic unban
+
+`/mode <channelname> -b <nickname>!<ident>@<hostname><domainname>`
+
 Instead of `<nickname>!<ident>@<hostname><domainname>` it is also possible to use *Masks* like shown before. In such case all users who are catched by the Mask are banned.
+
+## Muting Users
+
+Basic mute
+
+`/mode <channelname> +q <nickname>!<ident>@<hostname><domainname>`
+
+Basic unmute
+
+`/mode <channelname> -q <nickname>!<ident>@<hostname><domainname>`
+
 
 ## Channelmodes
 
