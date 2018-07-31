@@ -20,11 +20,13 @@ Register a channel
 
 Gain/give OP status
 
-`/msg Chanserv op <channelname> <nickname>`
+`/msg Chanserv op <channelname> [<nickname>]`
 
 Drop/remove Op status
 
-`/msg Chanserv deop <channelname> <nickname>` 
+`/msg Chanserv deop <channelname> [<nickname>]` 
+
+The nickname is optional each. If it is omitted, you will (de)op yourself.
 
 ---
 
