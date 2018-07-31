@@ -10,7 +10,7 @@
 - [Kicks and Bans](#kicks-and-bans)
 - [Muting Users](#muting-users)
 - [Channelmodes](#channelmodes)
-  * [Moderated Mode(#moderated-mode)
+  * [Moderated Mode](#moderated-mode)
 - [Managing Ops](#managing-ops)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
