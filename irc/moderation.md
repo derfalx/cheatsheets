@@ -1,4 +1,18 @@
 # Cheatsheet for IRC OPs
+- [General Notes](#general-notes)
+- [Channel and Usermodes](#channel-and-usermodes)
+  * [Possible Channelmodes in Freenode's IRC Network](#possible-channelmodes-in-freenodes-irc-network)
+  * [Possible Usermodes in Freenode's IRC Network](#possible-usermodes-in-freenodes-irc-network)
+- [Channel Creation and Registration](#channel-creation-and-registration)
+- [Op and DeOp](#op-and-deop)
+- [Topics](#topics)
+- [Masks](#masks)
+- [Kicks and Bans](#kicks-and-bans)
+- [Muting Users](#muting-users)
+- [Channelmodes](#channelmodes)
+- [Managing Ops](#managing-ops)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### General Notes
 
