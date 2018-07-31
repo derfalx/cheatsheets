@@ -10,6 +10,7 @@
 - [Kicks and Bans](#kicks-and-bans)
 - [Muting Users](#muting-users)
 - [Channelmodes](#channelmodes)
+  * [Moderated Mode(#moderated-mode)
 - [Managing Ops](#managing-ops)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -198,6 +199,26 @@ Basic unmute
 
 
 ## Channelmodes
+
+An overview of all possible channelmodes at the Freenode network can be found [above](#possible-channelmodes-in-freenodes-irc-network).
+
+### Moderated Mode
+
+This mode can be extremely useful if there are some spammers anoying a whole channel. If this mode is active, users need to be voiced to be able to read message of other users. Only Ops are able to read all messages (even of unvoiced users). To activate the moderated mode use:
+
+`/mode <channelname> +m`
+
+and to deactivate use
+
+`/mode <channel> -m`
+
+To voice users you can use the `mode` command as well:
+
+`/mode <channelname> +v <nickname>`
+
+to give multiple users at once voice you can add a `v` per user and simply append the nickname to the command. For example if you want to voice two users at once:
+
+`/mode <channelname> +vv <nickname> <another_nickname>`
 
 ## Managing Ops
 
