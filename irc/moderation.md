@@ -11,7 +11,8 @@
 - [Muting Users](#muting-users)
 - [Channelmodes](#channelmodes)
   * [Moderated Mode](#moderated-mode)
-- [Managing Ops](#managing-ops)
+  * [Registered Only Mode](#registered-only-mode)
+- [Managing Users](#managing-users)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -220,7 +221,10 @@ to give multiple users at once voice you can add a `v` per user and simply appen
 
 `/mode <channelname> +vv <nickname> <another_nickname>`
 
-## Managing Ops
+### Registered Only Mode
+
+
+## Managing Users
 
 
 
