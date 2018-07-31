@@ -65,6 +65,18 @@ To list current modes this command can be used:
 | z (reduced moderation) |  The effects of `+b`, `+q`, and `+m` are relaxed. For each message, if that message would normally be blocked by one of these modes, it is instead sent to channel operators (`+o`). |
 
 ### Possible Usermodes in Freenode's IRC Network
+[source](https://freenode.net/kb/answer/usermodes)
+
+| Mode (name)    |  Description                                      |
+|----------------|---------------------------------------------------|
+| g (caller-id)  | Ignores private messages from unknown users, instead informing you someone is attempting to message you. You can choose to receive messages with the `/accept` command. Messaging a user automatically accepts them. |
+| i (invisible)  | Hides you from global WHO/WHOIS by normal users, and shows only shared channels in `/WHOIS` output. |
+| Q (disable forwarding) | Prevents channel forwards from affecting you. If a channel's modes prevent you from joining, you will receive the relevant error message regardless of any forwards. |
+| R (block unidentified) | Ignores private messages from users who are not identified with services. |
+| w (see wallops) | Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting. |
+| Z (connected securely) | Set automatically by the network when you connect via SSL/TLS. |
+
+On Freenode `+Z`and is set automatically if you connect using SSL/TLS. `+i` is set per default and can be unset by the user.
 
 ## Channel Creation and Registration
 
