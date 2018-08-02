@@ -1,5 +1,10 @@
  # IPTABLES
  
+ ### Commands
+ **IPv4**: `iptables`
+ 
+ **IPv6**: `ip6tables`
+ 
  ## The Core Elementes of the IPTABLE System
  
  ```
@@ -50,3 +55,12 @@
  | `POSTROUTING` | `mangle`, `nat`        | Rules within this Chain are applied to packets just before they leave the network interface. |
  
  ### Targets
+ 
+ If a target is non-terminating other rules will be matched.
+ 
+ | Targetname  | Is Terminating? | Description                                                                   |
+ |-------------|-----------------|-------------------------------------------------------------------------------|
+ | `ACCEPT`    | Yes             | To accept a packet.                                                           |
+ | `DROP`      | Yes             | Drops the packet and acts like it never existed.                              |
+ | `REJECT`    | Yes             | Like `DROP`but answers with an `connection reset` (TCP) or `destination host unreachable` (UDP). |
+ | `LOG`       | No              | Logs the matching packets to the kernel log.                                  |
