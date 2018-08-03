@@ -1,11 +1,21 @@
-# Personal Cheatsheet of my (Neo)Vim Commands and Keybindings
+# My (Neo)Vim Commands and Keybindings
 
 ## Modes
 
-| Shortcut  | Description |
-|-----------|-------------|
+| Keybinding   | Description |
+|--------------|-------------|
 |<kbd>ESC</kbd>| Command mode. |
-|<kbd>a</kbd>| Appending mode. |
-|<kbd>i</kbd>| Insert mode. |
-|<kbd>v</kbd>| Simple visual mode. |
-|<kbd>shift</kbd>+<kbd>v</kbd>| Multi-line visual mode. |
+|<kbd>A</kbd>  | Appending mode. |
+|<kbd>I</kbd>  | Insert mode. |
+|<kbd>V</kbd>  | Simple visual mode. |
+|<kbd>SHIFT</kbd>+<kbd>V</kbd>| Multi-line visual mode. |
+
+
+## Command Mode
+
+| Keybinding             | Description                                   |
+|------------------------|-----------------------------------------------|
+| <kbd>H</kbd>           | Move the cursor to the left.                  |
+| <kbd>J</kbd>           | Move the cursor down.                         |
+| <kbd>K</kbd>           | Move the cursor up.                           |
+| <kbd>L</kbd>           | Move the cursor to the right.                 |
