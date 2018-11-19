@@ -122,6 +122,14 @@ Setting a topic
 
 `/topic <channelname> <new topic>` 
 
+## Channel Entry Messages
+
+To set a new channel entry message simply use
+
+`/msg ChanServ SET <channelname> ENTRYMSG [<message>]`
+
+If you don't want to have a channel message just leave the message blank.
+
 ## Masks
 
 `<nickname>!<ident>@<hostname>.<domainname>`
