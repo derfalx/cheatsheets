@@ -6,6 +6,7 @@
 - [Channel Creation and Registration](#channel-creation-and-registration)
 - [Op and DeOp](#op-and-deop)
 - [Topics](#topics)
+- [Channel Entry Messages](#channel-entry-messages)
 - [Masks](#masks)
 - [Kicks and Bans](#kicks-and-bans)
 - [Muting Users](#muting-users)
