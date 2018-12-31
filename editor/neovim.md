@@ -12,16 +12,9 @@
 
 
 ## Command Mode
-### Text Navigation
+### Windows
+#### Navigation
 
-| Keybinding             | Description                                   |
-|------------------------|-----------------------------------------------|
-| <kbd>H</kbd>           | Move the cursor to the left.                  |
-| <kbd>J</kbd>           | Move the cursor down.                         |
-| <kbd>K</kbd>           | Move the cursor up.                           |
-| <kbd>L</kbd>           | Move the cursor to the right.                 |
-
-### Window Navigation
 | Keybinding                                     | Description                      |
 |------------------------------------------------|----------------------------------|
 | <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>H</kbd>  | Move to the window to the left.  |
@@ -31,16 +24,30 @@
 | <kbd>G</kbd> + <kbd>T</kbd>                    | Move to the next tab.            |
 | <kbd>G</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Move to the previous tab.        |
 
-### Text Manipulation
+#### Manipulation
 
-| Command                   | Description                                   |
-|---------------------------|-----------------------------------------------|
-| <kbd>:m `TARGETLINE`</kbd>  | Moves the current line below the TARGETLINE.  |
-
-#### Window Manipulation
 | Command                      | Description                                   |
 |------------------------------|-----------------------------------------------|
 | <kbd>:res `[+\|-] HEIGHT`</kbd> | Changes the split height to the given HEIGHT. If `+` or `-` is given increase / reduce it by height|
+
+### Text
+#### Navigation
+
+| Keybinding             | Description                                   |
+|------------------------|-----------------------------------------------|
+| <kbd>H</kbd>           | Move the cursor to the left.                  |
+| <kbd>J</kbd>           | Move the cursor down.                         |
+| <kbd>K</kbd>           | Move the cursor up.                           |
+| <kbd>L</kbd>           | Move the cursor to the right.                 |
+
+
+#### Manipulation
+
+| Command / Keybinding       | Description                                   |
+|----------------------------|-----------------------------------------------|
+| <kbd>:m `TARGETLINE`</kbd> | Moves the current line below the TARGETLINE.  |
+| <kbd>X</kbd>               | Delete character under the cursor.            |
+
 
 ## Nerd-Tree
 
