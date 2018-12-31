@@ -12,6 +12,7 @@
 
 
 ## Command Mode
+### Text Navigation
 
 | Keybinding             | Description                                   |
 |------------------------|-----------------------------------------------|
@@ -19,6 +20,27 @@
 | <kbd>J</kbd>           | Move the cursor down.                         |
 | <kbd>K</kbd>           | Move the cursor up.                           |
 | <kbd>L</kbd>           | Move the cursor to the right.                 |
+
+### Window Navigation
+| Keybinding                                     | Description                      |
+|------------------------------------------------|----------------------------------|
+| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>H</kbd>  | Move to the window to the left.  |
+| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>J</kbd>  | Move to the window below.        |
+| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>K</kbd>  | Move to the window above.        |
+| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>L</kbd>  | Move to the window to the right. |
+| <kbd>G</kbd> + <kbd>T</kbd>                    | Move to the next tab.            |
+| <kbd>G</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Move to the previous tab.        |
+
+### Text Manipulation
+
+| Command                   | Description                                   |
+|---------------------------|-----------------------------------------------|
+| <kbd>:m `TARGETLINE`</kbd>  | Moves the current line below the TARGETLINE.  |
+
+#### Window Manipulation
+| Command                      | Description                                   |
+|------------------------------|-----------------------------------------------|
+| <kbd>:res `[+\|-] HEIGHT`</kbd> | Changes the split height to the given HEIGHT. If `+` or `-` is given increase / reduce it by height|
 
 ## Nerd-Tree
 
