@@ -4,31 +4,41 @@
 
 | Keybinding   | Description |
 |--------------|-------------|
-|<kbd>ESC</kbd>| Command mode. |
+|<kbd>ESC</kbd>| Normal mode. |
 |<kbd>A</kbd>  | Appending mode. |
 |<kbd>I</kbd>  | Insert mode. |
 |<kbd>V</kbd>  | Simple visual mode. |
 |<kbd>SHIFT</kbd> + <kbd>V</kbd>| Multi-line visual mode. |
 
 
-## Command Mode
+## Normal Mode
 ### Windows
 #### Navigation
 
-| Keybinding                                     | Description                      |
+| Keybinding / Command                           | Description                      |
 |------------------------------------------------|----------------------------------|
 | <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>H</kbd>  | Move to the window to the left.  |
 | <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>J</kbd>  | Move to the window below.        |
 | <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>K</kbd>  | Move to the window above.        |
 | <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>L</kbd>  | Move to the window to the right. |
+
+##### Tabs
+| Keybinding / Command                           | Description                      |
+|------------------------------------------------|----------------------------------|
 | <kbd>G</kbd> + <kbd>T</kbd>                    | Move to the next tab.            |
 | <kbd>G</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Move to the previous tab.        |
+| <kbd>:tabs</kbd>                               | List all tabs.                   |
+| <kbd>:tabedit `FILE`</kbd>                     | Open `FILE` in a new tab.        |
+| <kbd>:tabfind `FILE`</kbd>                     | Find the tab which holds `FILE`. |
+| <kbd>:tabclose</kbd>                           | Close the current tab.           |
 
-#### Manipulation
 
-| Command                      | Description                                   |
-|------------------------------|-----------------------------------------------|
-| <kbd>:res `[+\|-] HEIGHT`</kbd> | Changes the split height to the given HEIGHT. If `+` or `-` is given increase / reduce it by height|
+##### Splits
+
+| Command                         | Description                                   |
+|---------------------------------|-----------------------------------------------|
+| <kbd>:res `[+\|-] HEIGHT`</kbd> | Changes the split height to the given `HEIGHT`. If `+` or `-` is given increase / reduce it by height|
+| <kbd>:vertical `SPLIT_COMMAND`  | Prefix a `SPLIT_COMMAND` and so it applies to a vertical split. |
 
 ### Text
 #### Navigation
@@ -39,13 +49,14 @@
 | <kbd>J</kbd>           | Move the cursor down.                         |
 | <kbd>K</kbd>           | Move the cursor up.                           |
 | <kbd>L</kbd>           | Move the cursor to the right.                 |
+| <kbd>$</kbd>           | Move the cursor to the end of the line.       |  
 
 
 #### Manipulation
 
 | Command / Keybinding       | Description                                   |
 |----------------------------|-----------------------------------------------|
-| <kbd>:m `TARGETLINE`</kbd> | Moves the current line below the TARGETLINE.  |
+| <kbd>:m `TARGETLINE`</kbd> | Moves the current line below the `TARGETLINE`.  |
 | <kbd>X</kbd>               | Delete character under the cursor.            |
 
 
