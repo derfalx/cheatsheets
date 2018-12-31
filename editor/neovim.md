@@ -50,6 +50,7 @@
 | <kbd>K</kbd>           | Move the cursor up.                           |
 | <kbd>L</kbd>           | Move the cursor to the right.                 |
 | <kbd>$</kbd>           | Move the cursor to the end of the line.       |  
+| <kbd>0</kbd>           | Move the cursor to the beginning of the line. |
 
 
 #### Manipulation
