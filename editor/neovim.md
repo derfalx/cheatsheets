@@ -73,3 +73,5 @@
 | <kbd>G</kbd> + <kbd>I</kbd>     | preview split                  |
 | <kbd>S</kbd>                    | open vsplit                    |
 | <kbd>G</kbd> + <kbd>S</kbd>     | preview vsplit                 |
+| <kbd>R</kbd>                    | To refresh the current directory listing |
+| <kbd>SHIFT</kbd> + <kbd>R</kbd> | To refresh the directoy listing of the root directory |
