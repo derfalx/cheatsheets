@@ -17,16 +17,16 @@
 
 | Keybinding / Command                           | Description                      |
 |------------------------------------------------|----------------------------------|
-| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>H</kbd>  | Move to the window to the left.  |
-| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>J</kbd>  | Move to the window below.        |
-| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>K</kbd>  | Move to the window above.        |
-| <kbd>CTRL</kbd> + <kbd>W</kbd> + <kbd>L</kbd>  | Move to the window to the right. |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>H</kbd>  | Move to the window to the left.  |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>J</kbd>  | Move to the window below.        |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>K</kbd>  | Move to the window above.        |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>L</kbd>  | Move to the window to the right. |
 
 ##### Tabs
 | Keybinding / Command                           | Description                      |
 |------------------------------------------------|----------------------------------|
-| <kbd>G</kbd> + <kbd>T</kbd>                    | Move to the next tab.            |
-| <kbd>G</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Move to the previous tab.        |
+| <kbd>G</kbd>, <kbd>T</kbd>                    | Move to the next tab.            |
+| <kbd>G</kbd>, <kbd>SHIFT</kbd> + <kbd>T</kbd> | Move to the previous tab.        |
 | <kbd>:tabs</kbd>                               | List all tabs.                   |
 | <kbd>:tabedit `FILE`</kbd>                     | Open `FILE` in a new tab.        |
 | <kbd>:tabfind `FILE`</kbd>                     | Find the tab which holds `FILE`. |
@@ -39,6 +39,8 @@
 |---------------------------------|-----------------------------------------------|
 | <kbd>:res `[+\|-] HEIGHT`</kbd> | Changes the split height to the given `HEIGHT`. If `+` or `-` is given increase / reduce it by height|
 | <kbd>:vertical `SPLIT_COMMAND`  | Prefix a `SPLIT_COMMAND` and so it applies to a vertical split. |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>T</kbd>, <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>SHIFT</kbd> + <kbd>K</kbd> | Turn a vertical split into a horizontal split |
+|  <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>T</kbd>, <kbd>CTRL</kbd> + <kbd>W</kbd>, <kbd>SHIFT</kbd> + <kbd>H</kbd> | Turn a horizontal split into a vertical split |
 
 ### Text
 #### Navigation
@@ -61,17 +63,18 @@
 | <kbd>X</kbd>               | Delete character under the cursor.            |
 
 
-## Nerd-Tree
+## NerdTree
 
 | Keybinding                      | Description                    |
 |---------------------------------|--------------------------------|
 |  <kbd>O</kbd>                   | open in prev window            |
-| <kbd>G</kbd> + <kbd>O</kbd>     | preview                        |
+| <kbd>G</kbd>, <kbd>O</kbd>     | preview                        |
 | <kbd>T</kbd>                    | open in new tab                |
 | <kbd>SHIFT</kbd> + <kbd>T</kbd> | open in new tab silently       |
 | <kbd>I</kbd>                    | open split                     |
-| <kbd>G</kbd> + <kbd>I</kbd>     | preview split                  |
+| <kbd>G</kbd>, <kbd>I</kbd>     | preview split                  |
 | <kbd>S</kbd>                    | open vsplit                    |
-| <kbd>G</kbd> + <kbd>S</kbd>     | preview vsplit                 |
+| <kbd>G</kbd>, <kbd>S</kbd>     | preview vsplit                 |
 | <kbd>R</kbd>                    | To refresh the current directory listing |
 | <kbd>SHIFT</kbd> + <kbd>R</kbd> | To refresh the directoy listing of the root directory |
+| <kbd>M</kbd>                    | Open the NerdTree filesystem menu |
