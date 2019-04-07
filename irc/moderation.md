@@ -27,6 +27,8 @@ Optional parameters are within square brackets: `[<optional_user_defined_paramet
 
 If the user has to choose between multiple possibilities it is indicated using round brackets and a pipe symbol to separate several possible values: `(<possibility_one>|<or_possibility_two>)`
 
+**This cheatsheet is created with freenode and its specifics in mind. Commands listed below may won't work like this on other networks than freenode.**
+
 ## Channel and Usermodes
 
 Many things on IRC networks are handled using so called modes. These can be either applied to users or channels using the following syntax:
