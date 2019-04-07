@@ -81,6 +81,7 @@ To list current modes this command can be used:
 
 On Freenode `+Z`and is set automatically if you connect using SSL/TLS. `+i` is set per default and can be unset by the user.
 
+
 ## Channel Creation and Registration
 
 Choosing a channel name
@@ -108,6 +109,11 @@ Drop/remove Op status
 `/msg Chanserv deop <channelname> [<nickname>]` 
 
 The nickname is optional each. If it is omitted, you will (de)op yourself.
+
+## Query Ops for a specific channel
+To get a list of OPs to a channel use
+
+`/msg chanserv access <channel> list`
 
 ---
 
