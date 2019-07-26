@@ -9,6 +9,9 @@
 #### Linux
  - https://github.com/diego-treitos/linux-smart-enumeration
    Linux enumeration tool for pentesting and CTFs with verbosity levels
+ - https://github.com/rebootuser/LinEnum
+   Scripted Local Linux Enumeration & Privilege Escalation Checks
+
    
 ### DNS Enumeration
  - https://dnsdumpster.com
