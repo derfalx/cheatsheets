@@ -7,6 +7,7 @@
   * [DNS Enumeration](#dns-enumeration)
 - [Website Intel](#website-intel)
   * [Sandboxing](#sandboxing)
+- [Security Bypass](#security-restriction-bypass)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -37,3 +38,6 @@
  - https://urlquery.net
    urlquery.net is a service for detecting and analyzing web-based malware. It provides detailed information about the activities a browser does while visiting a site and presents the information for further analysis. **currently down**
  
+## Security Restriction Bypass
+ - https://gtfobins.github.io/
+   GTFOBins is a curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions.
